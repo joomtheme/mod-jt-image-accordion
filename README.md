@@ -144,14 +144,6 @@ mod_jt_image_accordion/
     └── changelog.xml
 ```
 
----
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md).
-
----
-
 ## Support
 
 For support, contact:
