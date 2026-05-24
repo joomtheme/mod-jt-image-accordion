@@ -20,7 +20,5 @@
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3</php_minimum>
         <sha256>77b374bd8105e2b751f79a2b053668512347a4eba5050829cc509faf50847904</sha256>
-        <sha384>86856066e9aaa29a828f656fdcc4bedc1b8ae2abd7e9b9c2145948adb054107cffddfe381a39968aba88744de5e37932</sha384>
-        <sha512>922da2339c62cfcb433859a4d6054fc3a4c45f12ffc9cea7248f08c84fdd517389e6dabe3b37e459ca8b1a4eb0959d22aca17d421d9dffd2af8426a170b64bb3</sha512>
     </update>
 </updates>
