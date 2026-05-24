@@ -1,1 +1,25 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<changelogs>
+    <changelog>
+        <element>mod_jt_image_accordion</element>
+        <type>module</type>
+        <version>0.2.0</version>
+        <note>
+            <item>First JoomTheme-branded test release under the mod_jt_image_accordion element.</item>
+        </note>
+        <addition>
+            <item>Added hover image accordion layout with Bootstrap 5 modal support.</item>
+            <item>Added optional diagonal modal opening animation.</item>
+            <item>Added repeatable card fields for image, description, button and modal content.</item>
+            <item>Added Joomla update server and changelog XML support.</item>
+        </addition>
+        <change>
+            <item>Updated display name to JoomTheme Image Accordion.</item>
+            <item>Improved Turkish and English administrator language strings.</item>
+            <item>Updated asset registry names and media destination to mod_jt_image_accordion.</item>
+        </change>
+        <fix>
+            <item>Normalised module element, language prefix and PHP namespace for the new repository name.</item>
+        </fix>
+    </changelog>
+</changelogs>
