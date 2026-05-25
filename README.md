@@ -1,3 +1,6 @@
+<img width="1676" height="869" alt="jt-accordion-module" src="https://github.com/user-attachments/assets/0847d30b-4d9c-4588-8f07-9b5ec056c17e" />
+
+
 # JoomTheme Image Accordion
 
 **JoomTheme Image Accordion** is a responsive image accordion module for Joomla 6.x with Bootstrap 5 modal support.
