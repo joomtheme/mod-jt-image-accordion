@@ -1,4 +1,5 @@
-<img width="1676" height="869" alt="jt-accordion-module" src="https://github.com/user-attachments/assets/0847d30b-4d9c-4588-8f07-9b5ec056c17e" />
+<img width="1200" height="525" alt="jt-accordion-module_banner" src="https://github.com/user-attachments/assets/b035a7c1-0eb3-482e-85dc-431146761571" />
+
 
 
 # JoomTheme Image Accordion
