@@ -10,7 +10,7 @@
         <change>
             <item>Updated module version to 0.3.1.</item>
             <item>Updated the Joomla administrator module name to JT Image Accordion.</item>
-            <item>Updated Turkish administrator naming to JT Görsel Akordion.</item>
+            <item>Updated administrator language strings for consistent English and Turkish display names.</item>
         </change>
         <fix>
             <item>Removed legacy jt-accordion-card__button class from frontend button markup.</item>
