@@ -3,6 +3,36 @@
     <changelog>
         <element>mod_jt_image_accordion</element>
         <type>module</type>
+        <version>0.3.0</version>
+        <note>
+            <item>Maintenance and compatibility release focused on Joomla 6.1.x and Bootstrap 5 alignment.</item>
+        </note>
+        <addition>
+            <item>Added a new parameter to optionally display sample cards.</item>
+            <item>Added Bootstrap modal dependency to the Web Asset Manager asset definition.</item>
+        </addition>
+        <change>
+            <item>Updated module version to 0.3.0.</item>
+            <item>Changed frontend button rendering to use native Bootstrap 5 btn-* classes directly.</item>
+            <item>Removed custom jt-btn-hover-* button style handling.</item>
+            <item>Cleaned up custom CSS to avoid duplicating Bootstrap 5 button behavior.</item>
+            <item>Simplified modal markup by relying more on Bootstrap 5 utility classes.</item>
+            <item>Disabled automatic sample card rendering by default for safer production usage.</item>
+            <item>Updated media asset registry version to 0.3.0.</item>
+            <item>Updated English and Turkish administrator language strings.</item>
+        </change>
+        <fix>
+            <item>Prevented sample content from appearing unintentionally on the frontend when no cards are configured.</item>
+            <item>Blocked data: image URI usage in image fields.</item>
+            <item>Filtered unsafe CTA URL schemes such as javascript: and vbscript:.</item>
+            <item>Prevented negative CSS size values from being accepted.</item>
+            <item>Removed unnecessary fallback modal styling and scripting complexity.</item>
+        </fix>
+    </changelog>
+
+    <changelog>
+        <element>mod_jt_image_accordion</element>
+        <type>module</type>
         <version>0.2.0</version>
         <note>
             <item>First JoomTheme-branded test release under the mod_jt_image_accordion element.</item>
