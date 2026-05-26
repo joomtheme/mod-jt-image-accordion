@@ -3,6 +3,26 @@
     <changelog>
         <element>mod_jt_image_accordion</element>
         <type>module</type>
+        <version>0.3.1</version>
+        <note>
+            <item>Patch release focused on Bootstrap 5 button output and Joomla administrator naming.</item>
+        </note>
+        <change>
+            <item>Updated module version to 0.3.1.</item>
+            <item>Updated the Joomla administrator module name to JT Image Accordion.</item>
+            <item>Updated Turkish administrator naming to JT Görsel Akordion.</item>
+        </change>
+        <fix>
+            <item>Removed legacy jt-accordion-card__button class from frontend button markup.</item>
+            <item>Normalised saved legacy jt-btn-hover-* button values to native Bootstrap 5 btn-* classes.</item>
+            <item>Prevented custom accordion button classes from appearing in frontend output.</item>
+            <item>Fixed inconsistent module naming in Joomla administrator module listings.</item>
+        </fix>
+    </changelog>
+
+    <changelog>
+        <element>mod_jt_image_accordion</element>
+        <type>module</type>
         <version>0.3.0</version>
         <note>
             <item>Maintenance and compatibility release focused on Joomla 6.1.x and Bootstrap 5 alignment.</item>
