@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <updates>
     <update>
-        <name>JoomTheme Image Accordion</name>
+        <name>JT Image Accordion</name>
         <description>Responsive image accordion module with Bootstrap 5 modal support.</description>
         <element>mod_jt_image_accordion</element>
         <type>module</type>
