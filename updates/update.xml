@@ -7,7 +7,7 @@
         <type>module</type>
         <client>site</client>
         <version>0.3.0</version>
-        <infourl title="JoomTheme Image Accordion">https://github.com/joomtheme/mod-jt-image-accordion/releases/tag/v0.3.0</infourl>
+        <infourl title="JT Image Accordion">https://github.com/joomtheme/mod-jt-image-accordion/releases/tag/v0.3.0</infourl>
         <downloads>
             <downloadurl type="full" format="zip">https://github.com/joomtheme/mod-jt-image-accordion/releases/download/v0.3.0/mod_jt_image_accordion_v0.3.0.zip</downloadurl>
         </downloads>
