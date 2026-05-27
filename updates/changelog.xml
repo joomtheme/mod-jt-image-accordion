@@ -3,6 +3,62 @@
     <changelog>
         <element>mod_jt_image_accordion</element>
         <type>module</type>
+        <version>0.3.4</version>
+        <note>
+            <item>JED Checker compliance update focused on Joomla Manual license header alignment.</item>
+        </note>
+        <addition>
+            <item>Added LICENSE.txt to the installation package.</item>
+        </addition>
+        <change>
+            <item>Updated module version to 0.3.4.</item>
+            <item>Updated PHP file headers to match the Joomla Manual license format.</item>
+            <item>Changed PHP file license headers to GNU General Public License version 2 or later; see LICENSE.txt.</item>
+            <item>Updated manifest file list to include LICENSE.txt.</item>
+            <item>Updated media asset registry version to 0.3.4.</item>
+        </change>
+        <fix>
+            <item>Improved JED Checker compatibility by aligning license metadata with Joomla extension examples.</item>
+        </fix>
+    </changelog>
+
+    <changelog>
+        <element>mod_jt_image_accordion</element>
+        <type>module</type>
+        <version>0.3.3</version>
+        <note>
+            <item>Manifest license compatibility update for Joomla Manual alignment.</item>
+        </note>
+        <change>
+            <item>Updated module version to 0.3.3.</item>
+            <item>Updated the manifest license value to GNU General Public License version 2 or later.</item>
+            <item>Updated media asset registry version to 0.3.3.</item>
+        </change>
+        <fix>
+            <item>Improved JED Checker compatibility for manifest license validation.</item>
+        </fix>
+    </changelog>
+
+    <changelog>
+        <element>mod_jt_image_accordion</element>
+        <type>module</type>
+        <version>0.3.2</version>
+        <note>
+            <item>Manifest validation update for JED Checker compatibility.</item>
+        </note>
+        <change>
+            <item>Updated module version to 0.3.2.</item>
+            <item>Updated media asset registry version to 0.3.2.</item>
+        </change>
+        <fix>
+            <item>Removed the unsupported php_minimum element from the extension manifest.</item>
+            <item>Kept PHP minimum requirement handling in the Joomla update server XML only.</item>
+        </fix>
+    </changelog>
+
+    <changelog>
+        <element>mod_jt_image_accordion</element>
+        <type>module</type>
         <version>0.3.1</version>
         <note>
             <item>Patch release focused on Bootstrap 5 button output and Joomla administrator naming.</item>
@@ -10,11 +66,11 @@
         <change>
             <item>Updated module version to 0.3.1.</item>
             <item>Updated the Joomla administrator module name to JT Image Accordion.</item>
-            <item>Updated administrator language strings for consistent English and Turkish display names.</item>
+            <item>Updated administrator language strings for consistent extension naming.</item>
         </change>
         <fix>
             <item>Removed legacy jt-accordion-card__button class from frontend button markup.</item>
-            <item>Normalised saved legacy jt-btn-hover-* button values to native Bootstrap 5 btn-* classes.</item>
+            <item>Normalized saved legacy jt-btn-hover-* button values to native Bootstrap 5 btn-* classes.</item>
             <item>Prevented custom accordion button classes from appearing in frontend output.</item>
             <item>Fixed inconsistent module naming in Joomla administrator module listings.</item>
         </fix>
@@ -69,7 +125,7 @@
             <item>Updated asset registry names and media destination to mod_jt_image_accordion.</item>
         </change>
         <fix>
-            <item>Normalised module element, language prefix and PHP namespace for the new repository name.</item>
+            <item>Normalized module element, language prefix and PHP namespace for the new repository name.</item>
         </fix>
     </changelog>
 </changelogs>
